@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app-2
+  namespace: my-quarkus-app-2-dev
+  cluster: .apps.cluster-dm5zt.dm5zt.sandbox1951.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/appservices-backstage-demo/my-quarkus-app-2
+  org: appservices-backstage-demo
+  name: my-quarkus-app-2
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app-2
+  tag: latest
